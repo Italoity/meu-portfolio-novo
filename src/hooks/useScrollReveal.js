@@ -1,0 +1,41 @@
+import { useEffect, useState, useRef } from "react";
+
+export const useScrollReveal = (options = {}) => {
+    const {
+        // ação será disparada pelo menos comm 10% de elemento estiver visível
+        threshold = 0.1,
+        // margem ao redor do "viewport" antecipar ou atrasar o gatilho
+        rootMargin = '0px'
+    } = options;
+
+    const [isVisible, setIsVisible] = useState(false);
+    const ref = useRef(null);
+
+    useEffect(() => {
+        const element = ref.current;
+        if (!element) return;
+        // "vigiar o elemento associado ao ref"
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                    observer.unobserve(element);
+                }
+            },
+            {
+                threshold,
+                rootMargin
+            }
+        );
+
+        observer.observe(element);
+
+        return() => {
+            if (element) {
+                observer.unobserve(element);
+            }
+        };
+    }, [threshold, rootMargin]);
+
+    return { ref, isVisible };
+}
