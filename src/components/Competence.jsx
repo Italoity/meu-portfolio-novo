@@ -7,7 +7,7 @@ function Competence() {
                     <div className="h-[1px] bg-gray-800 flex-grow"></div>
                 </div>
                 <div className="grid md:grid-cols-2 gap-6">
-                    <div className="p-6 bg-gray-900/50 border border-gray-900 rounded-lg hover:border-gray-800 transition-colors">
+                    <div className="p-6 bg-gray-900/50 border border-gray-900 rounded-lg hover:border-emerald-800 transition-colors">
                         <div className="flex items-center gap-3 mb-3 text-emerald-400">
                             <i className="fa-brands fa-java text-xl"></i>
                             <h4 className="font-bold text-gray-200">Java e Spring Boot</h4>
@@ -16,7 +16,7 @@ function Competence() {
                             Desenvolvimento de aplicações back-end, APIs RESTful e integração de sistemas.
                         </p>
                     </div>
-                    <div className="p-6 bg-gray-900/50 border border-gray-900 rounded-lg hover:border-gray-800 transition-colors">
+                    <div className="p-6 bg-gray-900/50 border border-gray-900 rounded-lg hover:border-emerald-800 transition-colors">
                         <div className="flex items-center gap-3 mb-3 text-emerald-400">
                             <i className="fa-solid fa-shield-halved text-lg"></i>
                             <h4 className="font-bold text-gray-200">Spring Security</h4>
@@ -25,7 +25,7 @@ function Competence() {
                             Implementação de autenticação, autorização e mecanismos de segurança.
                         </p>
                     </div>
-                    <div className="p-6 bg-gray-900/50 border border-gray-900 rounded-lg hover:border-gray-800 transition-colors">
+                    <div className="p-6 bg-gray-900/50 border border-gray-900 rounded-lg hover:border-emerald-800 transition-colors">
                         <div className="flex items-center gap-3 mb-3 text-emerald-400">
                             <i className="fa-solid fa-shield-halved text-lg"></i>
                             <h4 className="font-bold text-gray-200">MariaDB e Mysql</h4>
@@ -34,7 +34,7 @@ function Competence() {
                             Modelagem, administração e consulta de bancos de dados relacionais.
                         </p>
                     </div>
-                    <div className="p-6 bg-gray-900/50 border border-gray-900 rounded-lg hover:border-gray-800 transition-colors">
+                    <div className="p-6 bg-gray-900/50 border border-gray-900 rounded-lg hover:border-emerald-800 transition-colors">
                         <div className="flex items-center gap-3 mb-3 text-emerald-400">
                             <i className="fa-solid fa-shield-halved text-lg"></i>
                             <h4 className="font-bold text-gray-200">Cybersegurança</h4>
@@ -43,7 +43,7 @@ function Competence() {
                             Conhecimento em criptografia, Bash Script, análise de vulnerabilidades e segurança aplicada ao ciclo de desenvolvimento de software.
                         </p>
                     </div>
-                    <div className="p-6 bg-gray-900/50 border border-gray-900 rounded-lg hover:border-gray-800 transition-colors">
+                    <div className="p-6 bg-gray-900/50 border border-gray-900 rounded-lg hover:border-emerald-800 transition-colors">
                         <div className="flex items-center gap-3 mb-3 text-emerald-400">
                             <i className="fa-solid fa-shield-halved text-lg"></i>
                             <h4 className="font-bold text-gray-200">Front-end</h4>

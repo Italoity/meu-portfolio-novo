@@ -1,9 +1,9 @@
 function Projects() {
     return (
-        <section id="projetos" className="bg-gray-950 border-t border-gray-900 py-20">
-            <div className="max-w-5xl mx-auto px-6">
-                <div className="flex flex-center gap-4 mb-12">
-                    <h3 className="text-2xl font-bold tracking-tight">Projetos em Destaques</h3>
+        <section id="projetos" className="bg-gray-950 border-t py-20">
+            <div className="max-w-5xl mx-auto px-4">
+                <div className="flex flex-center gap-8 mb-12">
+                    <h3 className="text-2xl font-bold tracking-tight text-gray-100">Projetos em Destaques</h3>
                     <div className="h-[1px] bg-gray-800 flex-grow"></div>
                 </div>
                 
